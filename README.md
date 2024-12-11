@@ -13,6 +13,6 @@ Note that some commands require downloading the files from Transducer library an
 
 - **Results:** contains results of the above commands. These are created automatically by Walnut in the folder /Walnut/Results.
 
-- **Transducer library:** contains the file Tr9.txt which should be copied into the folder /Walnut/Transducer Library
+- **Transducer library:** contains the file Tr9.txt, which should be copied into the folder /Walnut/Transducer Library
 
-- **Word Automata Library:** contains the file K.txt and K1.txt which should be copied into the folder /Walnut/Word Automata Library
+- **Word Automata Library:** contains the file K.txt and K1.txt, which should be copied into the folder /Walnut/Word Automata Library
