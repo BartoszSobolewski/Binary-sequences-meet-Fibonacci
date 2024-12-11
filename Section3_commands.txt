@@ -1,0 +1,11 @@
+#Commands in Section 3
+
+# Before executing the commands below, the file K.txt should be copied into the Word Automata Library folder (available in the repository in the folder under the same name)
+
+def T0 "?lsd_2 En K[n]=x & K[n+1]=y & T[n+2]=@0":
+def T1 "?lsd_2 En K[n]=x & K[n+1]=y & K[n+2]=z & T[n+3]=@1":
+
+
+
+
+

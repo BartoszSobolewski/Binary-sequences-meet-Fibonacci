@@ -1,0 +1,14 @@
+#Commands in Section 5
+
+def block "T[n]=@0 & T[n+1]=@1 & T[n+2]=@0":
+eval inf "Am En n>m & $block(n)":
+def gaps "c>0 & En ($block(n) & $block(n+c) &  (Aj (j<c-1)  => ~$block(n+j+1)))":
+
+# Before executing the commands below, the K1.txt should be copied into the Word Automata Library folder, and Tr9.txt into the Transducer Library folder (available in the repository in folders under the same names)
+
+def T_shift_DFA "T[n+3]=@1":
+combine T_shift T_shift_DFA:
+transduce H Tr9 T_shift:
+
+reverse K2 K1:
+eval test "An K2[n]=H[n]":
