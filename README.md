@@ -15,4 +15,4 @@ Note that some commands require downloading the files from Transducer library an
 
 - **Transducer library:** contains the file Tr9.txt, which should be copied into the folder /Walnut/Transducer Library
 
-- **Word Automata Library:** contains the file K.txt and K1.txt, which should be copied into the folder /Walnut/Word Automata Library
+- **Word Automata Library:** contains the file K0.txt and H1.txt, which should be copied into the folder /Walnut/Word Automata Library
