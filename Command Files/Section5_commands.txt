@@ -10,5 +10,4 @@ def T_shift_DFA "T[n+3]=@1":
 combine T_shift T_shift_DFA:
 transduce H Tr9 T_shift:
 
-reverse K2 K1:
-eval test "An K2[n]=H[n]":
+eval test "An K[n]=H1[n]":
